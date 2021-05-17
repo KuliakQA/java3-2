@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         int account = 100; // RUB
-        int put = 1100; //RUB
+        int put = 1000; //RUB
         int result = put;
         int less = 1000;
         int percent;
-        if (put >= less) {
+        if (put > less) {
             percent = 1;
         } else {
             percent = 0;
